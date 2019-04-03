@@ -9,7 +9,8 @@ $(call inherit-product, device/xiaomi/mt6768-common/mt6768.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-lineage
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
