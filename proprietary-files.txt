@@ -1,4 +1,4 @@
-# Unpinned blobs from lancelot-user 11 RP1A.200720.011 V12.5.6.0.RJCMIXM release-keys
+# Unpinned blobs from lancelot-user 12 SP1A.210812.016 V13.0.4.0.SJCMIXM release-keys
 
 # AAL
 vendor/lib/libaal_cust.so
@@ -34,26 +34,26 @@ vendor/etc/audio_param/Speech_AudioParam.xml
 vendor/etc/audio_param/VoIPVol_AudioParam.xml
 vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml
 vendor/etc/audio_param/VoIPv2_AudioParam.xml
-vendor/etc/audio_param_ce/AudioParamOptions.xml
-vendor/etc/audio_param_ce/HpImpedance_AudioParam.xml
-vendor/etc/audio_param_ce/PlaybackACF_AudioParam.xml
-vendor/etc/audio_param_ce/PlaybackDRC_AudioParam.xml
-vendor/etc/audio_param_ce/PlaybackVolAna_AudioParam.xml
-vendor/etc/audio_param_ce/PlaybackVolDigi_AudioParam.xml
-vendor/etc/audio_param_ce/RecordFIR_AudioParam.xml
-vendor/etc/audio_param_ce/RecordVolUI_ParamUnitDesc.xml
-vendor/etc/audio_param_ce/RecordVol_AudioParam.xml
-vendor/etc/audio_param_ce/Record_AudioParam.xml
-vendor/etc/audio_param_ce/Record_ParamUnitDesc.xml
-vendor/etc/audio_param_ce/SmartPa_AudioParam.xml
-vendor/etc/audio_param_ce/SoundEnhancement_AudioParam.xml
-vendor/etc/audio_param_ce/SpeechDMNR_AudioParam.xml
-vendor/etc/audio_param_ce/SpeechGeneral_AudioParam.xml
-vendor/etc/audio_param_ce/SpeechVol_AudioParam.xml
-vendor/etc/audio_param_ce/Speech_AudioParam.xml
-vendor/etc/audio_param_ce/VoIPVol_AudioParam.xml
-vendor/etc/audio_param_ce/VoIPv2DMNR_AudioParam.xml
-vendor/etc/audio_param_ce/VoIPv2_AudioParam.xml
+vendor/etc/audio_param_global/AudioParamOptions.xml
+vendor/etc/audio_param_global/HpImpedance_AudioParam.xml
+vendor/etc/audio_param_global/PlaybackACF_AudioParam.xml
+vendor/etc/audio_param_global/PlaybackDRC_AudioParam.xml
+vendor/etc/audio_param_global/PlaybackVolAna_AudioParam.xml
+vendor/etc/audio_param_global/PlaybackVolDigi_AudioParam.xml
+vendor/etc/audio_param_global/RecordFIR_AudioParam.xml
+vendor/etc/audio_param_global/RecordVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param_global/RecordVol_AudioParam.xml
+vendor/etc/audio_param_global/Record_AudioParam.xml
+vendor/etc/audio_param_global/Record_ParamUnitDesc.xml
+vendor/etc/audio_param_global/SmartPa_AudioParam.xml
+vendor/etc/audio_param_global/SoundEnhancement_AudioParam.xml
+vendor/etc/audio_param_global/SpeechDMNR_AudioParam.xml
+vendor/etc/audio_param_global/SpeechGeneral_AudioParam.xml
+vendor/etc/audio_param_global/SpeechVol_AudioParam.xml
+vendor/etc/audio_param_global/Speech_AudioParam.xml
+vendor/etc/audio_param_global/VoIPVol_AudioParam.xml
+vendor/etc/audio_param_global/VoIPv2DMNR_AudioParam.xml
+vendor/etc/audio_param_global/VoIPv2_AudioParam.xml
 
 # Camera
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
@@ -75,7 +75,7 @@ vendor/lib64/libaltek_ldc_preview.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
 vendor/lib64/libmtkcam.featurepipe.streaming.so
 vendor/lib64/libmtkcam.logicalmodule.so
-vendor/lib64/libmtkcam_3rdparty.customer.so|2bcac544a86838d73125a0831188778e618175a7
+vendor/lib64/libmtkcam_3rdparty.customer.so
 vendor/lib64/libmtkcam_3rdparty.mtk.so
 vendor/lib64/libmtkcam_3rdparty.so
 vendor/lib64/libmtkcam_device3_app.so
@@ -160,13 +160,6 @@ vendor/lib64/s5k4h7yx_ofilm_ultra_mipi_raw_IdxMgr.so
 vendor/lib64/s5k4h7yx_ofilm_ultra_mipi_raw_india_IdxMgr.so
 vendor/lib64/s5k4h7yx_ofilm_ultra_mipi_raw_india_tuning.so
 vendor/lib64/s5k4h7yx_ofilm_ultra_mipi_raw_tuning.so
-vendor/lib64/s5k4h7yx_qtech_front_mipi_raw_IdxMgr.so
-vendor/lib64/s5k4h7yx_qtech_front_mipi_raw_india_IdxMgr.so
-vendor/lib64/s5k4h7yx_qtech_front_mipi_raw_india_tuning.so
-vendor/lib64/s5k4h7yx_qtech_front_mipi_raw_tuning.so
-vendor/lib64/s5k4h7yx_qtech_ultra_mipi_raw_IdxMgr.so
-vendor/lib64/s5k4h7yx_qtech_ultra_mipi_raw_india_IdxMgr.so
-vendor/lib64/s5k4h7yx_qtech_ultra_mipi_raw_india_tuning.so
 vendor/lib64/gc5035_ofilm_mipi_raw_IdxMgr.so
 vendor/lib64/gc5035_ofilm_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc5035_ofilm_mipi_raw_india_tuning.so
@@ -175,7 +168,6 @@ vendor/lib64/gc5035_qtech_mipi_raw_IdxMgr.so
 vendor/lib64/gc5035_qtech_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc5035_qtech_mipi_raw_india_tuning.so
 vendor/lib64/gc5035_qtech_mipi_raw_tuning.so
-vendor/lib64/s5k4h7yx_qtech_ultra_mipi_raw_tuning.so
 vendor/etc/camera/golden_ov13b10_i_ov2180_i.bin
 vendor/etc/camera/golden_rear_dc_cal_wd.bin
 vendor/etc/camera/golden_s5k3l6_ii_ov2180_ii.bin
@@ -201,10 +193,6 @@ vendor/bin/libccu_s5k4h7yx_ofilm_front_mipi_raw.dm
 vendor/bin/libccu_s5k4h7yx_ofilm_front_mipi_raw.pm
 vendor/bin/libccu_s5k4h7yx_ofilm_ultra_mipi_raw.dm
 vendor/bin/libccu_s5k4h7yx_ofilm_ultra_mipi_raw.pm
-vendor/bin/libccu_s5k4h7yx_qtech_front_mipi_raw.dm
-vendor/bin/libccu_s5k4h7yx_qtech_front_mipi_raw.pm
-vendor/bin/libccu_s5k4h7yx_qtech_ultra_mipi_raw.dm
-vendor/bin/libccu_s5k4h7yx_qtech_ultra_mipi_raw.pm
 vendor/bin/hw/camerahalserver
 
 # Firmware
@@ -255,7 +243,6 @@ vendor/lib64/libpq_cust.so
 vendor/lib64/libacdk.so
 
 # NFC
-vendor/lib/libsn100u_fw.so
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-nxp.conf
@@ -280,14 +267,11 @@ vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Sensors
-vendor/lib/libnusensor.so
-vendor/lib64/libnusensor.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/libakm.so
 vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/libsensor_custom.so
 vendor/data/misc/pdc.txt
-vendor/etc/pm_test_item_config.xml
 vendor/bin/nusensors
 vendor/bin/nusensors_new
 

@@ -1,5 +1,6 @@
 # MTK project .rc configure
-import /vendor/odm/etc/${ro.boot.product.hardware.sku}/vendor.microtrust.hardware.se@1.0-service.rc
+import /vendor/odm/etc/${ro.boot.product.hardware.sku}/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc
+#import /vendor/odm/etc/${ro.boot.product.hardware.sku}/android.hardware.nfc@1.0-service.rc
 import /vendor/odm/etc/${ro.boot.product.hardware.sku}/android.hardware.secure_element@1.2-service-mediatek.rc
 
 on init
