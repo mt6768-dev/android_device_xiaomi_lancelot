@@ -9,7 +9,7 @@
 function blob_fixup() {
     case "${1}" in
         vendor/bin/mnld)
-            "$PATCHELF" --add-needed "libshim_sensors.so" "$2"
+            "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "android.hardware.sensors@1.0-convert-shared.so" "${2}"
             ;;
     esac
 }
