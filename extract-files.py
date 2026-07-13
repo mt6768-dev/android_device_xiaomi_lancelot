@@ -20,14 +20,27 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/bin/mnld': blob_fixup()
-        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+    'vendor/bin/hw/mtkfusionrild' : blob_fixup()
+        .add_needed('libutils-v32.so'),
     'vendor/lib/hw/audio.primary.mt6768.so': blob_fixup()
         .add_needed('libstagefright_foundation-v33.so')
         .replace_needed('libalsautils.so', 'libalsautils-v31.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib/librt_extamp_intf.so' : blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/lib64/libcam.utils.sensorprovider.so': blob_fixup()
+        .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
+    'vendor/lib64/libmi_watermark.so': blob_fixup()
+        .add_needed('libpiex_shim.so'),
+    (
+        'vendor/lib64/libmtkcam_stdutils.so',
+        'vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so',
+    ): blob_fixup()
+        .replace_needed('libutils.so', 'libutils-v32.so'),
+    ('vendor/lib64/lib3a.flash.so', 'vendor/lib64/libSQLiteModule_VER_ALL.so'): blob_fixup()
+         .add_needed('liblog.so'),
+    'vendor/lib64/libsysenv.so' : blob_fixup()
+        .add_needed('libbase_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
