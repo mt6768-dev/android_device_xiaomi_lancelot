@@ -23,7 +23,10 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/bin/mnld': blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
     'vendor/lib/hw/audio.primary.mt6768.so': blob_fixup()
-        .replace_needed('libalsautils.so', 'libalsautils-v31.so'),
+        .replace_needed('libalsautils.so', 'libalsautils-v31.so')
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/lib/librt_extamp_intf.so' : blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
