@@ -1,0 +1,9 @@
+# Firmware - from lancelot-user 12 SP1A.210812.016 V13.0.4.0.SJCMIXM release-keys
+lk.img
+logo.bin:logo.img
+md1img.img
+preloader_emmc.img
+scp.img
+spmfw.img
+sspm.img
+tee.img
