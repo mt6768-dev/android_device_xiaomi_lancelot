@@ -23,6 +23,9 @@ PRODUCT_MODEL := Redmi 9
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="lancelot-user 12 SP1A.210812.016 V13.0.4.0.SJCMIXM release-keys"
-
-BUILD_FINGERPRINT := Redmi/lancelot_global/lancelot:12/SP1A.210812.016/V13.0.4.0.SJCMIXM:user/release-keys
+    BuildDesc="lancelot-user 12 SP1A.210812.016 V13.0.4.0.SJCMIXM release-keys" \
+    BuildFingerprint=Redmi/lancelot_global/lancelot:12/SP1A.210812.016/V13.0.4.0.SJCMIXM:user/release-keys \
+    SystemModel=$(PRODUCT_SYSTEM_DEVICE) \
+    SystemName=$(PRODUCT_SYSTEM_NAME) \
+    ProductModel=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
