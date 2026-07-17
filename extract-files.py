@@ -44,6 +44,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libvidhance.so': blob_fixup()
         .add_needed('libcomparetf2_shim.so')
         .add_needed('libdemangle.so'),
+    'vendor/lib64/libutinterface_custom_md.so': blob_fixup()
+        .add_needed('libutinterface_md.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
