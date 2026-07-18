@@ -1,0 +1,499 @@
+{
+  "Sensors": [
+    {
+      "Name": "CPU",
+      "Type": "CPU",
+      "ZoneName": "mtktscpu",
+      "HotThreshold": [
+        "NaN",
+        "NaN",
+        "NaN",
+        85,
+        90,
+        100,
+        117
+      ],
+      "VrThreshold": "85.0",
+      "Multiplier": 0.001
+    },
+    {
+      "Name": "GPU",
+      "Type": "GPU",
+      "ZoneName": "mtktscpu",
+      "HotThreshold": [
+        "NaN",
+        "NaN",
+        "NaN",
+        85,
+        90,
+        100,
+        117
+      ],
+      "VrThreshold": "85.0",
+      "Multiplier": 0.001
+    },
+    {
+      "Name": "mtktsbattery",
+      "Type": "BATTERY",
+      "HotThreshold": [
+        "NaN",
+        "NaN",
+        "NaN",
+        50,
+        55,
+        59,
+        60
+      ],
+      "VrThreshold": "50.0",
+      "Multiplier": 0.001
+    },
+    {
+      "Name": "mtktsAP",
+      "Type": "SKIN",
+      "HotThreshold": [
+        "NaN",
+        "NaN",
+        "NaN",
+        50,
+        70,
+        80,
+        90
+      ],
+      "VrThreshold": "50.0",
+      "Multiplier": 0.001
+    },
+    {
+      "Name": "mtktsbtsmdpa",
+      "Type": "POWER_AMPLIFIER",
+      "HotThreshold": [
+        "NaN",
+        "NaN",
+        "NaN",
+        68,
+        90,
+        100,
+        110
+      ],
+      "VrThreshold": "NaN",
+      "Multiplier": 0.001
+    },
+    {
+      "Name": "NPU",
+      "Type": "NPU",
+      "ZoneName": "mtktscpu",
+      "HotThreshold": [
+        "NaN",
+        "NaN",
+        "NaN",
+        85,
+        90,
+        100,
+        117
+      ],
+      "VrThreshold": "NaN",
+      "Multiplier": 0.001
+    }
+  ],
+  "CoolingDevices": [
+    {
+      "Name": "mtk-cl-shutdown02",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-shutdown01",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-kshutdown02",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-kshutdown01",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-kshutdown00",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-cam02",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-cam01",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-cam00",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-cam-urgent",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtktsbattery-sysrst",
+      "Type": "BATTERY"
+    },
+    {
+      "Name": "mtktspa-sysrst",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtktswmt-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-shutdown00",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtktswmt-pa1",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtktswmt-pa2",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing1",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing2",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing3",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing4",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing5",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing6",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing7",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing8",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-backlight",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "clnothing9",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs0-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs1-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs2-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs3-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs4-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs5-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs6-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs7-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs8-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-flashlight",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs9-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs10-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs11-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "tzimgs12-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtktspmic-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "backlight_therm",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-mutt03",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtk-cl-mutt02",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtk-cl-mutt01",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtk-cl-mutt00",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtk-cl-kshutdown07",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtk-cl-noIMS",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtk-cl-mdoff",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "mtk-cl-adp-mutt",
+      "Type": "MODEM"
+    },
+    {
+      "Name": "cpu_adaptive_0",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu_adaptive_1",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu_adaptive_2",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtk-cl-gpu",
+      "Type": "GPU"
+    },
+    {
+      "Name": "mtk-cl-char_curr",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "cpu00",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu01",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtk-cl-kshutdown06",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "cpu02",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu03",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu04",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu05",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu06",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu07",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu08",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu09",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu10",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu11",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtk-cl-kshutdown05",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "cpu12",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu13",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu14",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu15",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu16",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu17",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu18",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu19",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu20",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu21",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtk-cl-kshutdown04",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "cpu22",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu23",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu24",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu25",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu26",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu27",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu28",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu29",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu30",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu31",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtk-cl-kshutdown03",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "cpu32",
+      "Type": "CPU"
+    },
+    {
+      "Name": "cpu33",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtktscpu-sysrst",
+      "Type": "CPU"
+    },
+    {
+      "Name": "mtktsbuck-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "mtktsAP-sysrst",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "sysrst.6358buck1",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "sysrst.6358buck2",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "sysrst.6358buck3",
+      "Type": "COMPONENT"
+    },
+    {
+      "Name": "battery",
+      "Type": "BATTERY"
+    },
+    {
+      "Name": "mtktscharger-sysrst",
+      "Type": "COMPONENT"
+    }
+  ]
+}

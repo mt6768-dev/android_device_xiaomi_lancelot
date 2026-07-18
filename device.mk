@@ -67,5 +67,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lancelot/lancelot-vendor.mk)
