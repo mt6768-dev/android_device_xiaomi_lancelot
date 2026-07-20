@@ -22,6 +22,9 @@ PRODUCT_MODEL := M2004J19C
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_SYSTEM_NAME := lancelot_global
+PRODUCT_SYSTEM_DEVICE := lancelot
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="lancelot-user 12 SP1A.210812.016 V13.0.4.0.SJCMIXM release-keys" \
     BuildFingerprint=Redmi/lancelot_global/lancelot:12/SP1A.210812.016/V13.0.4.0.SJCMIXM:user/release-keys \
