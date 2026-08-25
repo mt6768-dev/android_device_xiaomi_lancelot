@@ -304,14 +304,6 @@
       "Type": "CPU"
     },
     {
-      "Name": "mtk-cl-gpu",
-      "Type": "GPU"
-    },
-    {
-      "Name": "mtk-cl-char_curr",
-      "Type": "COMPONENT"
-    },
-    {
       "Name": "cpu00",
       "Type": "CPU"
     },
