@@ -22,7 +22,7 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_GALAHAD_FILES := $(DEVICE_PATH)/manifest_galahad.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := lancelot_defconfig
+TARGET_KERNEL_CONFIG += vendor/lancelot.config
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
